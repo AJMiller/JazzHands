@@ -12,5 +12,9 @@
 
 @property (nonatomic, strong) IFTTTAnimator *animator;
 @property (strong, nonatomic) UIScrollView *scrollView;
+@property (strong, nonatomic) UIPageControl *pageControl;
+
+- (id)init:(NSUInteger)numberOfPages;
+- (void)changePage;
 
 @end
